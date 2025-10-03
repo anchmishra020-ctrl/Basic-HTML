@@ -1,2 +1,3 @@
 # Basic-HTML
-My first git repository
+My first git repository<br>
+Today is Friday
