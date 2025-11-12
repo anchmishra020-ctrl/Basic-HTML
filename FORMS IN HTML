@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html1.css"
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form>
+        <span>
+    <label for="name">FRIST NAME &nbsp; &nbsp; &nbsp;</label>
+    <input type="text" placeholder="enter first name" id="name">
+    (max 30 character a-z and A-Z)
+    </span>
+    <br>
+    <span>
+    <label for="last">LAST NAME &nbsp; &nbsp; &nbsp;</label>
+    <input type="text" placeholder="enter last name" id="last">
+    (max 30 characters a-z and A-Z)
+    </span>
+    <br>
+    <p>DATE OF BIRTH  
+    <select class="h">
+    <option value="day">Day</option>
+          <option value="day">Monday</option>
+           <option value="day">Tuesday</option>
+            <option value="day">Wednesday</option>
+             <option value="day">Thruday</option>
+             <option value="day">Friday</option>
+              <option value="day">Saturday</option>
+          <option value="day">Sunday</option>
+          
+    </select>
+    <select class="h">
+        <option value="day">Date</option>
+         <option value="day">01</option>
+          <option value="day">02</option>
+           <option value="day">03</option>
+            <option value="day">04</option>
+             <option value="day">05</option> <option value="day">Date</option>
+          <option value="day">06</option>
+           <option value="day">07</option>
+            <option value="day">08</option>
+             <option value="day">09</option>
+    </select>
+     <select class="h">
+        <option value="day">year</option>
+    </select>
+    </p>
+    <br>
+    <label for="email">EMAIL ID &nbsp; &nbsp; &nbsp;</label>
+    <input type="email" placeholder="enter your email" id="email">
+    <br>
+    <label for="number">MOBILE NUMBER &nbsp; &nbsp; &nbsp;</label>
+    <input type="number" placeholder="enter your email" id="number">
+    <br>
+    <label for="gender">GENDER &nbsp; &nbsp; &nbsp;</label>
+    <label for="gen">Male</label>
+    <input type="radio"  id="gen" name="same">
+    <label for="ge">Female</label>
+    <input type="radio" id="gender" name="same">
+
+    <br>
+    <label for="text">
+        ADDRESS &nbsp; &nbsp; &nbsp;
+    </label>
+    <textarea placeholder="Write your address here"></textarea>
+    <br>
+    <label for="city">CITY &nbsp; &nbsp; &nbsp;</label> 
+    <input type="text" placeholder="enter your city id="city">
+     (max 30 characters a-z and A-Z)
+    <br>
+    <label for="pin">PINCODE &nbsp; &nbsp; &nbsp;</label>
+    <input type="number" placeholder="pincode" id="pin">
+    <br>
+    <label for="state">STATE &nbsp; &nbsp; &nbsp;</label>
+    <input type="text" placeholder="enter your state" id="state">
+    <br>
+    <label for="country">COUNTRY &nbsp; &nbsp; &nbsp;</label>
+    <input type="TEXT" placeholder="enter your COUNTRY" id="country">
+    <br>
+    <p>HOBBIES &nbsp; &nbsp; &nbsp;
+    <label for="radio">Drawing</label>
+    <input type="checkbox" id="radio" name="raio">
+     <label for="radi">Singing</label>
+    <input type="checkbox" id="radi" name="raio">
+     <label for="rad">Dancing</label>
+    <input type="checkbox" id="rad" name="raio">
+     <label for="ra">Sketching</label>
+    <input type="checkbox" id="ra" name="raio">
+     <label for="r">Others</label>
+    <input type="checkbox" id="r" name="raio">
+    <textarea placeholder="HOBBIES"></textarea>
+    </p>
+    <P><u>QUALIFICATION</u> &nbsp; &nbsp; &nbsp;</P>
+    <table>
+        <tr>
+            <th>SI.No. Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+        <tr>
+            <th>CLASS X</th>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <TH>CLASS XII</TH>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <TH>GRADUATION</TH>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <TH>MASTERS</TH>
+        </tr>
+    </table>
+    <label for="course">COURSES <BR>APPIED FOR &nbsp; &nbsp; &nbsp;</label>
+        <select>
+    <option value="day">BCA</option>
+        <option value="day">B.Com</option>
+        <option value="day">B, Sc</option>
+        <option value="day">B.A</option>
+    </select>
+    <br>
+    <div id="hello">
+    <button type="submit" align="center">Submit</button>
+    <button type="reset" align="center">Reset</button>
+    </div>
+    </form>
+</body>
+</html>
